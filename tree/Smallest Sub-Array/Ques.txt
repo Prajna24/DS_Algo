@@ -1,0 +1,60 @@
+Smallest Sub-Array
+
+Given an integer G and an array A[ ], find the length of the minimum sub-array, 
+whose Greatest Common Divisor equals G.
+
+Format:
+
+Input:
+
+The first line of input contains an integer T, denoting the number of test cases. 
+Then T test cases follow. The first line of each test case contains an integer G, 
+where G is the required Greatest Common Divisor. The second line of each test case 
+contains an integer N, where N is the size of an array A[ ]. The third line of each 
+test case contains N space-separated integers, denoting the elements of an array A[ ].
+
+Output:
+
+Print the length of the smallest sub-array with GCD = G. If there is no such sub-array
+formed, then print "-1". 
+
+
+Constraints:
+
+1 <= T <= 100
+
+1 <  N <= 200
+
+0 <= A[i] <= 100
+
+1 <  G <= 100
+
+Input (stdin)
+3
+3
+8
+6 9 12 10 15 24 36 27
+4
+7
+21 3 12 4 32 7 5
+2
+6
+9 12 15 24 36 27
+
+Output (stdout)
+2
+2
+-1
+
+Input (stdin)
+2
+4
+5
+85 28 97 86 63
+4
+5
+23 45 78 96 85
+
+Output (stdout)
+-1
+-1

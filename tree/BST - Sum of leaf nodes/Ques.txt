@@ -1,0 +1,25 @@
+Binary Search tree - Sum of leaf nodes
+
+Write a program to sum up all the leaf node elements in a tree.
+
+Input (stdin)
+6
+3
+1
+4
+2
+-1
+
+Output (stdout)
+Sum of all leaf nodes are 6
+
+Input (stdin)
+1
+2
+3
+4
+5
+-1
+
+Output (stdout)
+Sum of all leaf nodes are 5

@@ -1,0 +1,35 @@
+Binary search tree - Sum
+Write a program to sum up all the elements in a tree.
+
+Example:
+
+Input:
+
+6
+
+3
+
+1
+
+4
+
+2
+
+-1
+
+Output:
+
+Sum of all nodes are 16
+
+Input (stdin)
+
+1
+2
+3
+4
+5
+-1
+
+Output (stdout)
+
+Sum of all nodes are 15

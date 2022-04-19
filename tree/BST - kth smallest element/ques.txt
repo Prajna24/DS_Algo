@@ -1,0 +1,36 @@
+Binary search tree - kth smallest element
+Write a program to find the kth smallest element of a binary search tree.
+
+Example:
+
+Input (stdin)
+50
+30
+20
+40
+70
+60
+80
+-1
+4
+
+Output (stdout)
+
+Enter the kth value:
+Smallest kth value 50
+
+Input (stdin)
+50
+30
+20
+40
+70
+60
+80
+-1
+6
+
+Output (stdout)
+
+Enter the kth value:
+Smallest kth value 70

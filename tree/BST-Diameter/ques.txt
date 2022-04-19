@@ -1,0 +1,32 @@
+Binary Search Tree - Diameter
+Write a program to find the diameter of a binary search tree.
+
+Example:
+
+Input:
+
+1
+
+2
+
+3
+
+4
+
+5
+
+-1
+
+Output:
+
+Diameter of the given binary tree is 5
+
+Input (stdin)
+1
+2
+3
+-1
+
+Output (stdout)
+
+Diameter of the given binary tree is 3

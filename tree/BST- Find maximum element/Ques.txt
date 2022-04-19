@@ -1,0 +1,31 @@
+Binary tree - Find maximum element
+
+Write a program to find the maximum element in a tree.
+
+Input (stdin)
+6
+3
+1
+4
+2
+-1
+
+Output (stdout)
+Maximum element is 6
+
+Input (stdin)
+6
+3
+1
+4
+2
+9
+7
+8
+10
+15
+13
+-1
+
+Output (stdout)
+Maximum element is 15
