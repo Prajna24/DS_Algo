@@ -1,36 +1,19 @@
 Lowest Common Ancestor
 
-Write a program to find a common ancestor of a given two numbers in the tree. Let T 
-be the root of a tree. The lowest common ancestor between two nodes n1 and n2 is 
-defined as the lowest node in T. Which has both n1 and n2 as descendants (where we 
-allow a node to be a descendant of itself). The LCA of n1 and n2 in T is the shared 
-ancestor of n1 and n2, which is located farthest from the root. Computation of the 
-Lowest common ancestor is useful. For instance, as part of a procedure for determining
- the distance between the pairs of a node in a tree. The distance from n1 to n2 can 
-be computed as a distance from a root to n1. Plus, the distance from a root to n2. 
-Later, subtract two times the distance from a root to their lowest common ancestor.
-
+Write a program to find a common ancestor of a given two numbers in the tree. Let T be the root of a tree. The lowest common ancestor between two nodes n1 and n2 is defined as the lowest node in T. Which has both n1 and n2 as descendants (where we allow a node to be a descendant of itself). The LCA of n1 and n2 in T is the shared ancestor of n1 and n2, which is located farthest from the root. Computation of the Lowest common ancestor is useful. For instance, as part of a procedure for determining the distance between the pairs of a node in a tree. The distance from n1 to n2 can be computed as a distance from a root to n1. Plus, the distance from a root to n2. Later, subtract two times the distance from a root to their lowest common ancestor.
 
 Format:
 
 Input:
-
 6
-
 3
-
 1
-
 4
-
 2
-
 -1
-
 3 6
 
 Output:
-
 6
 
 Input (stdin)
